@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: amihaioff/moneyman:latest
+  IMAGE_NAME: amihaioff/moneyman
 
 jobs:
   build-and-push-image:
