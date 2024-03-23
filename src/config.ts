@@ -75,6 +75,7 @@ function parseAccounts(accountsJson?: string): Array<AccountConfig> {
     }
   } catch {}
 
+  console.log("accounts: " + accountsJson);
   throw new TypeError("ACCOUNTS_JSON must be a valid array");
 }
 
